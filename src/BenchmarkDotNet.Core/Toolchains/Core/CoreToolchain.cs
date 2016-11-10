@@ -12,7 +12,7 @@ namespace BenchmarkDotNet.Toolchains.Core
 {
     public class CoreToolchain : Toolchain
     {
-        private const string TargetFrameworkMoniker = "netcoreapp1.0";
+        private const string TargetFrameworkMoniker = "netcoreapp1.1";
 
         public static readonly IToolchain Instance = new CoreToolchain();
 
